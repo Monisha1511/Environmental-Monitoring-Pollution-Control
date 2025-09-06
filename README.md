@@ -1,29 +1,33 @@
 # Environmental-Monitoring-Pollution-Control
 #project : plastic waste detection project
+----------------------------------------------------------------------------------------------------------------------------
+Week-1 (what I did)
 
-Introduction
+Dataset: “Plastic Waste Around the World.”
 
-This project is developed to monitor environmental conditions and control pollution levels effectively. It provides a system that collects environmental data such as air quality, pollution levels, and related parameters, helping to analyze and take preventive actions.
+Task: Exploratory Data Analysis (EDA) + Preprocessing.
 
-Features :
+I explored the dataset (looked at features, distributions, missing values, etc.).
+I preprocessed it using WEKA (handled missing values, cleaned/normalized the data).
+After preprocessing, I submitted the cleaned dataset as your Week-1 work.
+-------------------------------------------------------------------------------------------------------------------------
+Week-2: Model Training
 
-Real-time monitoring of pollution data
-Analysis of air quality and environmental parameters
-Easy-to-understand structure for data handling
-Scalable for future improvements and dataset integration
+In Week-2, the focus was on training machine learning models to predict total plastic waste (mt) using the preprocessed dataset from Week-1. The following steps were performed:
 
-Project Structure :
+Data Split: The dataset was split into training (80%) and testing (20%) sets with a fixed random seed (42) to ensure reproducibility.
 
-Code: Contains the main implementation of the project
-Datasets (optional): Can be added for analysis and testing
-Documentation: Explains the purpose and usage of the project
+Models Trained: Three regression models were applied:
 
-Future Scope :
+Linear Regression (baseline)
+M5P (Model Tree)
+Random Forest Regressor
 
-Integration with live sensors
-Advanced data visualization
-Machine learning models for prediction
+Evaluation Metrics: Each model was evaluated using Correlation Coefficient, Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE).
 
-Conclusion :
+Model Comparison:
+Linear Regression showed weak correlation (0.1654).
+M5P improved correlation slightly (0.386) but with higher error.
+Random Forest achieved the best performance with the highest correlation (0.4575) and the lowest MAE (0.0407).
 
-This project serves as a base for environmental monitoring systems. It can be further enhanced with datasets, visualization, and prediction models to support pollution control and sustainable development.
+Final Model Selection: Based on the results, Random Forest was chosen as the best-performing model. The trained model was saved as RandomForest_BestModel.model for further evaluation in Week-3.
