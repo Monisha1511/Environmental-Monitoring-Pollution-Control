@@ -1,15 +1,14 @@
 # Environmental-Monitoring-Pollution-Control
 #project : plastic waste detection project
-----------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
 Week-1 (what I did)
 
 Dataset: “Plastic Waste Around the World.”
 
 Task: Exploratory Data Analysis (EDA) + Preprocessing.
 
-I explored the dataset (looked at features, distributions, missing values, etc.).
-I preprocessed it using WEKA (handled missing values, cleaned/normalized the data).
-After preprocessing, I submitted the cleaned dataset as your Week-1 work.
+I explored the dataset by looking at its features, distributions, and checking for missing values. I then preprocessed the data using WEKA, where I handled the missing values and applied cleaning and normalization. After preprocessing, I submitted the cleaned dataset as my Week-1 work.
+
 -------------------------------------------------------------------------------------------------------------------------
 Week-2: Model Training
 
@@ -31,3 +30,5 @@ M5P improved correlation slightly (0.386) but with higher error.
 Random Forest achieved the best performance with the highest correlation (0.4575) and the lowest MAE (0.0407).
 
 Final Model Selection: Based on the results, Random Forest was chosen as the best-performing model. The trained model was saved as RandomForest_BestModel.model for further evaluation in Week-3.
+
+-------------------------------------------------------------------------------------------------------------------------
