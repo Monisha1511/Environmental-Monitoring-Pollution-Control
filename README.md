@@ -9,7 +9,7 @@ It covers:
 
 ## 📂 Week 1: Dataset Preparation
 **Files included:**  
-- `original_dataset.csv` – Original dataset downloaded.  
+- `Plastic Waste Around the World.csv` – Original dataset downloaded.  
 - `cleaned_dataset.arff` – Dataset after preprocessing in WEKA (missing values handled, attributes formatted, etc.).
 
 **Steps performed:**  
