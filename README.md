@@ -24,7 +24,7 @@ It covers:
 
 **Steps performed:**  
 1. Load the cleaned ARFF dataset.  
-2. Train multiple models (e.g., Decision Tree, Random Forest, Naive Bayes).  
+2. Train multiple models (e.g., tress.M5P , Random Forest, Naive Bayes).  
 3. Compare model accuracies using WEKA evaluation metrics.  
 4. Save the trained models for later evaluation.
 
