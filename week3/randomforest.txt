@@ -1,0 +1,48 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     Plastic Waste Around the World-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.RemoveUseless-M99.0
+Instances:    165
+Attributes:   179
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 0.79 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         105               63.6364 %
+Incorrectly Classified Instances        60               36.3636 %
+Kappa statistic                          0.4072
+Mean absolute error                      0.2453
+Root mean squared error                  0.3549
+Relative absolute error                 75.0133 %
+Root relative squared error             87.8989 %
+Total Number of Instances              165     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.892    0.429    0.629      0.892    0.737      0.479    0.784     0.718     High
+                 0.303    0.045    0.625      0.303    0.408      0.348    0.787     0.466     Medium
+                 0.481    0.135    0.634      0.481    0.547      0.376    0.767     0.640     Low
+                 0.750    0.000    1.000      0.750    0.857      0.863    0.830     0.756     Very_High
+Weighted Avg.    0.636    0.246    0.639      0.636    0.612      0.428    0.780     0.643     
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+ 66  3  5  0 |  a = High
+ 13 10 10  0 |  b = Medium
+ 25  3 26  0 |  c = Low
+  1  0  0  3 |  d = Very_High
+
