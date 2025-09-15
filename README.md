@@ -10,7 +10,7 @@ It covers:
 ## 📂 Week 1: Dataset Preparation
 **Files included:**  
 - `Plastic Waste Around the World.csv` – Original dataset downloaded.  
-- `cleaned_dataset.arff` – Dataset after preprocessing in WEKA (missing values handled, attributes formatted, etc.).
+- `Plastic Waste_week_1.arff` – Dataset after preprocessing in WEKA (missing values handled, attributes formatted, etc.).
 
 **Steps performed:**  
 1. Import CSV into WEKA.  
