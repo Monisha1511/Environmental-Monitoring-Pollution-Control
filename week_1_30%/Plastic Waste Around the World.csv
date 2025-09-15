@@ -1,0 +1,166 @@
+Country,Total_Plastic_Waste_MT,Main_Sources,Recycling_Rate,Per_Capita_Waste_KG,Coastal_Waste_Risk
+China,59.08,Packaging_Industrial,29.8,41.2,High
+United States,42.02,Packaging_Consumer,32.1,127.5,Medium
+India,26.33,Consumer_Goods,11.5,19.3,High
+Japan,7.99,Packaging_Electronics,84.8,63.2,Medium
+Germany,6.28,Automotive_Packaging,56.1,75.6,Low
+Brazil,5.96,Consumer_Packaging,1.2,28.1,Medium
+Indonesia,5.85,Food_Packaging,11.8,21.3,Very_High
+Russia,5.84,Industrial_Consumer,5.6,40.2,Medium
+United Kingdom,5.03,Packaging_Consumer,46.2,74.3,Low
+France,4.98,Packaging_Consumer,27.3,73.1,Low
+Mexico,4.43,Consumer_Packaging,6.7,34.2,High
+Canada,3.89,Packaging_Consumer,9.4,102.1,Low
+Italy,3.83,Packaging_Industrial,41.2,63.4,Medium
+Turkey,3.21,Consumer_Packaging,12.1,38.5,High
+South Korea,2.91,Electronics_Packaging,59.1,56.7,Medium
+Spain,2.58,Consumer_Packaging,37.8,54.9,Medium
+Vietnam,2.54,Food_Packaging,15.3,25.8,Very_High
+Thailand,2.41,Consumer_Packaging,17.6,34.5,High
+Malaysia,2.31,Industrial_Consumer,24.3,70.2,High
+Poland,2.21,Packaging_Industrial,34.5,58.3,Low
+Egypt,2.01,Consumer_Packaging,6.5,19.3,High
+Argentina,1.98,Consumer_Packaging,14.2,43.5,Medium
+Netherlands,1.78,Industrial_Packaging,55.9,102.8,Low
+Australia,1.67,Consumer_Packaging,13.2,64.8,Medium
+Saudi Arabia,1.65,Consumer_Packaging,4.5,46.9,Medium
+Philippines,1.63,Food_Packaging,9.1,14.8,Very_High
+Bangladesh,1.61,Consumer_Packaging,8.4,9.7,High
+Pakistan,1.59,Consumer_Packaging,3.2,7.1,High
+South Africa,1.58,Consumer_Packaging,18.9,26.4,Medium
+Colombia,1.54,Consumer_Packaging,7.8,30.1,Medium
+Nigeria,1.53,Consumer_Packaging,2.1,7.3,High
+Belgium,1.52,Industrial_Packaging,43.2,131.2,Low
+Sweden,1.51,Packaging_Industrial,50.6,146.3,Low
+Austria,1.48,Industrial_Packaging,56.4,164.8,Low
+Ukraine,1.47,Consumer_Packaging,3.4,33.7,Medium
+Greece,1.45,Consumer_Packaging,21.3,139.2,Medium
+Czech Republic,1.43,Industrial_Packaging,41.7,133.9,Low
+Romania,1.41,Consumer_Packaging,13.8,73.4,Medium
+Portugal,1.39,Consumer_Packaging,31.2,135.8,Medium
+Hungary,1.37,Industrial_Packaging,30.1,141.5,Low
+Denmark,1.35,Packaging_Consumer,42.3,232.1,Low
+Finland,1.33,Industrial_Packaging,42.1,240.2,Low
+Norway,1.31,Industrial_Packaging,44.5,243.1,Low
+Ireland,1.29,Consumer_Packaging,31.2,257.3,Low
+Singapore,1.27,Industrial_Packaging,59.8,217.9,Medium
+Chile,1.25,Consumer_Packaging,8.9,64.7,High
+Israel,1.23,Consumer_Packaging,14.5,133.7,Medium
+Peru,1.21,Consumer_Packaging,2.3,36.4,High
+Kazakhstan,1.19,Industrial_Consumer,4.5,62.8,Low
+Morocco,1.17,Consumer_Packaging,7.8,31.2,High
+Algeria,1.15,Consumer_Packaging,4.3,25.9,High
+Slovakia,1.13,Industrial_Packaging,38.9,207.1,Low
+Ecuador,1.11,Consumer_Packaging,4.1,61.8,High
+Belarus,1.09,Industrial_Consumer,7.2,115.7,Low
+Dominican Republic,1.07,Consumer_Packaging,2.8,97.6,High
+Bulgaria,1.05,Consumer_Packaging,31.5,152.3,Medium
+Tunisia,1.03,Consumer_Packaging,4.1,85.9,High
+Sri Lanka,1.01,Consumer_Packaging,29.8,46.7,High
+Azerbaijan,0.99,Consumer_Packaging,18.2,96.8,Medium
+Croatia,0.97,Consumer_Packaging,33.7,238.1,Medium
+Uruguay,0.95,Consumer_Packaging,35.2,272.4,Medium
+Lithuania,0.93,Industrial_Packaging,45.3,334.8,Low
+Slovenia,0.91,Industrial_Packaging,42.1,436.5,Low
+Costa Rica,0.89,Consumer_Packaging,13.2,172.8,High
+Panama,0.87,Consumer_Packaging,5.4,198.6,High
+Kuwait,0.85,Consumer_Packaging,10.2,195.4,High
+Jordan,0.83,Consumer_Packaging,7.8,80.6,Medium
+Lebanon,0.81,Consumer_Packaging,6.4,119.1,High
+Oman,0.79,Consumer_Packaging,3.2,151.9,High
+Bolivia,0.77,Consumer_Packaging,2.8,65.3,Low
+Paraguay,0.75,Consumer_Packaging,4.1,104.2,Low
+Latvia,0.73,Industrial_Packaging,43.2,386.8,Low
+Estonia,0.71,Industrial_Packaging,31.8,534.6,Low
+Bahrain,0.69,Consumer_Packaging,4.5,397.7,High
+Trinidad and Tobago,0.67,Consumer_Packaging,3.2,478.6,High
+Cyprus,0.65,Consumer_Packaging,16.4,531.1,Medium
+Montenegro,0.63,Consumer_Packaging,3.4,1004.8,Medium
+Luxembourg,0.61,Industrial_Packaging,48.9,957.8,Low
+Malta,0.59,Consumer_Packaging,11.2,1331.5,Medium
+Iceland,0.57,Consumer_Packaging,55.6,1564.4,Low
+Qatar,0.55,Consumer_Packaging,8.9,188.7,High
+Cambodia,0.53,Consumer_Packaging,5.4,31.2,High
+Myanmar,0.51,Consumer_Packaging,2.1,9.3,High
+Laos,0.49,Consumer_Packaging,1.8,66.2,Medium
+Mongolia,0.47,Consumer_Packaging,0.9,141.6,Low
+Afghanistan,0.45,Consumer_Packaging,0.5,11.4,Low
+Yemen,0.43,Consumer_Packaging,0.3,14.2,High
+Syria,0.41,Consumer_Packaging,0.4,24.7,Medium
+Iraq,0.39,Consumer_Packaging,1.2,9.6,Medium
+Libya,0.37,Consumer_Packaging,0.8,53.2,High
+Sudan,0.35,Consumer_Packaging,0.4,7.9,Medium
+Somalia,0.33,Consumer_Packaging,0.1,20.4,High
+Ethiopia,0.31,Consumer_Packaging,0.7,2.6,Low
+Kenya,0.29,Consumer_Packaging,7.8,5.3,High
+Tanzania,0.27,Consumer_Packaging,5.4,4.4,High
+Uganda,0.25,Consumer_Packaging,2.3,5.3,Low
+Rwanda,0.23,Consumer_Packaging,11.2,17.4,Low
+Burundi,0.21,Consumer_Packaging,0.8,17.3,Low
+Malawi,0.19,Consumer_Packaging,0.5,9.7,Low
+Mozambique,0.17,Consumer_Packaging,0.9,5.3,High
+Zimbabwe,0.15,Consumer_Packaging,2.1,9.9,Low
+Zambia,0.13,Consumer_Packaging,1.8,6.9,Low
+Angola,0.11,Consumer_Packaging,0.4,3.3,High
+Namibia,0.09,Consumer_Packaging,12.3,35.1,High
+Botswana,0.07,Consumer_Packaging,8.9,29.3,Low
+Lesotho,0.05,Consumer_Packaging,0.7,23.2,Low
+Eswatini,0.03,Consumer_Packaging,1.2,25.6,Low
+Madagascar,0.21,Consumer_Packaging,2.1,7.4,High
+Comoros,0.02,Consumer_Packaging,0.4,22.7,High
+Mauritius,0.08,Consumer_Packaging,15.4,62.8,High
+Seychelles,0.01,Consumer_Packaging,18.9,101.2,High
+Cape Verde,0.02,Consumer_Packaging,3.4,35.6,High
+Sao Tome and Principe,0.01,Consumer_Packaging,0.8,45.2,High
+Guinea-Bissau,0.04,Consumer_Packaging,0.3,19.8,High
+Guinea,0.08,Consumer_Packaging,0.5,6,High
+Sierra Leone,0.06,Consumer_Packaging,0.4,7.3,High
+Liberia,0.05,Consumer_Packaging,0.2,9.7,High
+Ivory Coast,0.18,Consumer_Packaging,1.2,6.7,High
+Ghana,0.22,Consumer_Packaging,4.5,7,High
+Togo,0.07,Consumer_Packaging,0.8,8.3,High
+Benin,0.09,Consumer_Packaging,0.6,7.3,High
+Mali,0.12,Consumer_Packaging,0.3,5.8,Low
+Burkina Faso,0.14,Consumer_Packaging,0.4,6.5,Low
+Niger,0.11,Consumer_Packaging,0.2,4.4,Low
+Chad,0.09,Consumer_Packaging,0.1,5.4,Low
+Central African Republic,0.04,Consumer_Packaging,0.2,8.1,Low
+Cameroon,0.19,Consumer_Packaging,1.2,7,High
+Gabon,0.06,Consumer_Packaging,2.3,26.4,High
+Republic of Congo,0.08,Consumer_Packaging,0.9,14.2,High
+Democratic Republic of Congo,0.24,Consumer_Packaging,0.4,2.6,Medium
+Eritrea,0.05,Consumer_Packaging,0.3,13.9,High
+Djibouti,0.03,Consumer_Packaging,1.1,29.7,High
+Senegal,0.16,Consumer_Packaging,1.8,9.4,High
+Gambia,0.02,Consumer_Packaging,0.5,8.1,High
+Mauritania,0.07,Consumer_Packaging,0.4,14.8,High
+Western Sahara,0.01,Consumer_Packaging,0.2,18.5,High
+Moldova,0.28,Consumer_Packaging,12.3,69.7,Low
+Albania,0.31,Consumer_Packaging,15.6,107.9,Medium
+North Macedonia,0.29,Consumer_Packaging,17.8,139.2,Low
+Bosnia and Herzegovina,0.34,Consumer_Packaging,13.2,104.5,Low
+Kosovo,0.21,Consumer_Packaging,8.9,115.7,Low
+Georgia,0.33,Consumer_Packaging,11.2,88.3,Medium
+Armenia,0.28,Consumer_Packaging,9.8,94.2,Low
+Kyrgyzstan,0.25,Consumer_Packaging,4.5,37.8,Low
+Tajikistan,0.22,Consumer_Packaging,3.2,22.7,Low
+Turkmenistan,0.35,Consumer_Packaging,2.1,57.3,Low
+Uzbekistan,0.42,Consumer_Packaging,3.4,12.3,Low
+Nepal,0.38,Consumer_Packaging,5.6,12.8,Low
+Bhutan,0.05,Consumer_Packaging,12.3,64.2,Low
+Maldives,0.04,Consumer_Packaging,3.2,72.8,Very_High
+Brunei,0.12,Consumer_Packaging,8.9,269.4,High
+East Timor,0.06,Consumer_Packaging,2.3,44.7,High
+Papua New Guinea,0.15,Consumer_Packaging,1.2,16.5,High
+Solomon Islands,0.03,Consumer_Packaging,0.8,42.9,High
+Vanuatu,0.02,Consumer_Packaging,1.1,63.8,High
+New Caledonia,0.04,Consumer_Packaging,23.4,138.6,High
+Fiji,0.07,Consumer_Packaging,6.7,76.9,High
+Samoa,0.01,Consumer_Packaging,4.5,49.8,High
+Tonga,0.01,Consumer_Packaging,3.2,92.7,High
+Kiribati,0.01,Consumer_Packaging,2.1,82.4,High
+Marshall Islands,0.01,Consumer_Packaging,1.8,168.5,High
+Micronesia,0.01,Consumer_Packaging,1.5,86.3,High
+Palau,0.01,Consumer_Packaging,12.3,437.2,High
+Tuvalu,0.01,Consumer_Packaging,1.2,833.3,High
+Nauru,0.01,Consumer_Packaging,0.9,927.8,High
