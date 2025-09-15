@@ -1,59 +1,50 @@
-# Environmental-Monitoring-Pollution-Control
-#project : plastic waste detection project
--------------------------------------------------------------------------------------------------------------------------
-Week-1 (what I did)
+# Monitoring Project using WEKA
 
-Dataset: “Plastic Waste Around the World.”
+## ✅ Project Overview
+This project demonstrates a step-by-step **data analysis and model building workflow** using WEKA.  
+It covers:  
+1. **Dataset preprocessing**  
+2. **Model training and evaluation**  
+3. **Selecting the best model based on accuracy**
 
-Task: Exploratory Data Analysis (EDA) + Preprocessing.
+## 📂 Week 1: Dataset Preparation
+**Files included:**  
+- `original_dataset.csv` – Original dataset downloaded.  
+- `cleaned_dataset.arff` – Dataset after preprocessing in WEKA (missing values handled, attributes formatted, etc.).
 
-I explored the dataset by looking at its features, distributions, and checking for missing values. I then preprocessed the data using WEKA, where I handled the missing values and applied cleaning and normalization. After preprocessing, I submitted the cleaned dataset as my Week-1 work.
+**Steps performed:**  
+1. Import CSV into WEKA.  
+2. Preprocess dataset (remove irrelevant attributes, handle missing values).  
+3. Export cleaned dataset to ARFF format for modeling.
 
--------------------------------------------------------------------------------------------------------------------------
-Week-2: Model Training
+## 📂 Week 2: Model Training
+**Files included:**  
+- `.model` files – Saved WEKA model files.  
+- Screenshots showing model training and **accuracy comparisons**.
 
-In Week-2, the focus was on training machine learning models to predict total plastic waste (mt) using the preprocessed dataset from Week-1. The following steps were performed:
+**Steps performed:**  
+1. Load the cleaned ARFF dataset.  
+2. Train multiple models (e.g., Decision Tree, Random Forest, Naive Bayes).  
+3. Compare model accuracies using WEKA evaluation metrics.  
+4. Save the trained models for later evaluation.
 
-Data Split: The dataset was split into training (80%) and testing (20%) sets with a fixed random seed (42) to ensure reproducibility.
 
-Models Trained: Three regression models were applied:
+## 📂 Week 3: Evaluation
+**Files included:**  
+- `evaluation_results.txt` – Exported from WEKA result buffer.  
+- Optional confusion matrix screenshots.  
+- Short summary report explaining **why the best model was chosen**.
 
-Linear Regression (baseline)
-M5P (Model Tree)
-Random Forest Regressor
+**Steps performed:**  
+1. Load saved models and evaluate on test data.  
+2. Analyze accuracy, precision, recall, F1-score, and confusion matrix.  
+3. Select the best-performing model.  
+4. Document reasoning in the summary report.
 
-Evaluation Metrics: Each model was evaluated using Correlation Coefficient, Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE).
+## 📝 Summary
+- Preprocessing ensures **clean and usable data**.  
+- Model training identifies **most accurate predictive model**.  
+- Evaluation confirms the **best model for deployment or prediction tasks**.
 
-Model Comparison:
-Linear Regression showed weak correlation (0.1654).
-M5P improved correlation slightly (0.386) but with higher error.
-Random Forest achieved the best performance with the highest correlation (0.4575) and the lowest MAE (0.0407).
 
-Final Model Selection: Based on the results, Random Forest was chosen as the best-performing model. The trained model was saved as RandomForest_BestModel.model for further evaluation in Week-3.
-
--------------------------------------------------------------------------------------------------------------------------
-week 3 - Weka Regression Project
-
-This repository contains a Weka-based regression analysis using a dataset of **Actual vs Predicted values**.
-
-## Overview
-- Prepared a CSV file with **Actual and Predicted values**.
-- Loaded the CSV in **Weka** and visualized the data using the **Visualize tab**.
-- Generated a **scatter plot** to observe how predictions compare with actual values.
-- Examined key regression metrics: Correlation coefficient, MAE, RMSE, Relative errors, and Total instances.
-
-## Observations
-- The scatter plot appears **scattered rather than diagonal**.
-- Reason: Predicted values are almost constant, while Actual values vary, resulting in a **low correlation coefficient (0.1279)**.
-- Despite small MAE/RMSE, the model does not follow the trend of actual values.
-
-## Files in this Repository
-- `Actual_Predicted.csv` – Dataset with Actual and Predicted values.
-- `ActualvsPredicted.png` – Scatter plot visualization from Weka.
-- `Weka_Visualize_Session.arff` – Saved Weka session for reproducibility.
-
-## Conclusion
-- Demonstrates how Weka can be used for **visualizing regression results** and analyzing model performance.
-- Scatter plot and metrics provide insights into the **accuracy and limitations of the model**.
-
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 📁 File Structure
