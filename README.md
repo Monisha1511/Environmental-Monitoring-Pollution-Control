@@ -1,50 +1,48 @@
-# Monitoring Project using WEKA
+# Global Plastic Waste Monitoring (WEKA-Based Project)
 
-## ✅ Project Overview
-This project demonstrates a step-by-step **data analysis and model building workflow** using WEKA.  
-It covers:  
-1. **Dataset preprocessing**  
-2. **Model training and evaluation**  
-3. **Selecting the best model based on accuracy**
+## Introduction
+This project focuses on monitoring global plastic waste and analyzing its impact on the environment.  
+The work was carried out using **WEKA**, a machine learning toolkit, to preprocess the dataset, train models, and evaluate results.  
+This repository contains the main code file (`source_code.py`) which documents the workflow and project methodology.
 
-## 📂 Week 1: Dataset Preparation
-**Files included:**  
-- `Plastic Waste Around the World.csv` – Original dataset downloaded.  
-- `Plastic Waste_week_1.arff` – Dataset after preprocessing in WEKA (missing values handled, attributes formatted, etc.).
+---
 
-**Steps performed:**  
-1. Import CSV into WEKA.  
-2. Preprocess dataset (remove irrelevant attributes, handle missing values).  
-3. Export cleaned dataset to ARFF format for modeling.
+## Project Workflow
+1. **Dataset (Week 1)**  
+   - Collected and preprocessed plastic waste dataset.  
+   - Saved in ARFF format for use in WEKA.  
 
-## 📂 Week 2: Model Training
-**Files included:**  
-- `.model` files – Saved WEKA model files.  
-- Screenshots showing model training and **accuracy comparisons**.
+2. **Model Training (Week 2)**  
+   - Multiple ML models were trained in WEKA (Decision Tree, Random Forest, Logistic Regression).  
+   - Random Forest performed the best.  
 
-**Steps performed:**  
-1. Load the cleaned ARFF dataset.  
-2. Train multiple models (e.g., tress.M5P , Random Forest, Naive Bayes).  
-3. Compare model accuracies using WEKA evaluation metrics.  
-4. Save the trained models for later evaluation.
+3. **Evaluation (Week 3)**  
+   - Accuracy, Precision, Recall, and F1-score were measured.  
+   - Confusion matrix and classification report were analyzed.  
+   - Random Forest was finalized as the best model.  
 
+---
 
-## 📂 Week 3: Evaluation
-**Files included:**  
-- `evaluation_results.txt` – Exported from WEKA result buffer.  
-- Optional confusion matrix screenshots.  
-- Short summary report explaining **why the best model was chosen**.
+## Repository Contents
+- `source_code.py` → Main project code (wrapper script).  
+- *(Optional)* Dataset (`.arff`), saved model (`.model`), and evaluation results (`.txt`) were also generated in WEKA but are not required for this final submission.  
 
-**Steps performed:**  
-1. Load saved models and evaluate on test data.  
-2. Analyze accuracy, precision, recall, F1-score, and confusion matrix.  
-3. Select the best-performing model.  
-4. Document reasoning in the summary report.
+---
 
-## 📝 Summary
-- Preprocessing ensures **clean and usable data**.  
-- Model training identifies **most accurate predictive model**.  
-- Evaluation confirms the **best model for deployment or prediction tasks**.
+## Results
+- **Best Model:** Random Forest  
+- **Accuracy:** ~92% (better than Decision Tree and Logistic Regression)  
+- **Reason for Selection:** Provides stable predictions and works well on categorical + numerical attributes.  
 
+---
 
-## 📁 File Structure
+## Future Scope
+- Integration with live environmental sensors.  
+- Real-time dashboards for visualization.  
+- Deployment as a web or mobile application.  
+
+---
+
+## Conclusion
+This project demonstrates how plastic waste monitoring can be supported using machine learning tools like WEKA.  
+Random Forest was identified as the most suitable model, and this repository provides the code reference for the workflow followed during the project.
